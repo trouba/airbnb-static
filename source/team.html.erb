@@ -1,8 +1,11 @@
-<ul class="list-inline text-center padded-topbot">
-  <% ["anne", "seb", "nicolas"].each do |member| %>
-    <li>
-      <%= image_tag "#{member}.jpg", class: "avatar-xl" %>
-      <h3><%= member.capitalize %></h3>
-    </li>
-  <% end %>
-</ul>
+<div class="bg-graylighter padded-topbot bgteam" style="background-image: linear-gradient(-225deg, rgba(249,121,121,0.6) 0%, rgba(142,46,0,0.6) 50%), url('images/bgteam.jpg');">
+  <h1 class="centered padded-topbot no-margin tx-white">Our Team</h1>
+  <ul class="list-inline text-center padded-topbot ">
+    <% ["anne", "seb", "nicolas"].each do |member| %>
+      <li>
+        <%= image_tag "#{member}.jpg", class: "avatar-xl" %>
+        <h3 class="tx-white"><%= member.capitalize %></h3>
+      </li>
+    <% end %>
+  </ul>
+</div>

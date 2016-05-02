@@ -3,10 +3,10 @@
 }
 
 .footer a {
-  color:white;
+  color: $gray-lighter;
   transition: color 0.5s ease;
 }
 
 .footer a:hover {
-  color: #FFBF00;
+  color: $yellow;
 }

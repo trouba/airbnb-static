@@ -2,13 +2,14 @@
  * Fonts
  * ------------------------------------- */
 // Google fonts
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500|Varela+Round");
 $base-font: "Open Sans", "Helvetica", "sans-serif";
-$header-font: "Raleway", "Helvetica", "sans-serif";
+$header-font: "Varela Round", "Helvetica", "sans-serif";
+
 
 // Local fonts (uncomment following lines)
 // @font-face {
-//   font-family: "Font Name";
+// font-family: "Font Name";
 //   src: font-url('FontFile.eot');
 //   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
 //        font-url('FontFile.woff') format('woff'),
@@ -16,7 +17,7 @@ $header-font: "Raleway", "Helvetica", "sans-serif";
 // }
 // $my-font: "Font Name";
 
-// Font-size and line-height
+//Font-size and line-height
 $base-size: 16px;
 $base-height: 1.4;
 
@@ -26,11 +27,12 @@ $base-height: 1.4;
 // Scheme
 $brand-color: #D23333;
 
-$red: #EE5F5B;
-$blue: #469AE0;
-$yellow: #FDB631;
-$orange: #E67E22;
-$green: #32B796;
+$red: #DE5C5C;
+$blue: #68C0EF;
+$yellow: #FFBF00;
+$orange: #FF6B2F;
+$green: #5CDE7B;
+$brown: #2F0E00;
 
 // Gray scale
 $gray-darker:  lighten(#000, 13.5%); // #222
