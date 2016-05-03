@@ -1,0 +1,27 @@
+anne:
+  coach_name: Anne
+  picture: wurst.jpg
+  coach_picture: anne.jpg
+  name: Hallo wurst !
+  summary: Fly to Germany to eat wurst with the best beers in Europe !
+  city: Berlin
+  level: Conoisseur
+  category: Travel
+seb:
+  coach_name: Seb
+  picture: morning.jpg
+  coach_picture: seb.jpg
+  name: A fresh start everyday
+  summary: Discover the best "sausage included" breakfast recipies
+  city: Paris
+  level: Amateur
+  category: Cooking
+nicolas:
+  coach_name: Nicolas
+  picture: barbecue.jpg
+  coach_picture: nicolas.jpg
+  name: 1BAW!
+  summary: Join our "1 Barbecue A Week" summer plan and meet other sausage lovers
+  city: At home
+  level: Newbie
+  category: Lifestyle

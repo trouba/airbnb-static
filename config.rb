@@ -89,3 +89,7 @@ activate :deploy do |deploy|
   # deploy.strategy = :submodule # commit strategy: can be :force_push or :submodule, default: :force_push
   # deploy.commit_message = 'custom-message' # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
 end
+
+["anne", "seb", "nicolas"].each do |name|
+  proxy "/guides/#{name}.html", "/guides/show.html", :locals => { :coach => name }, :ignore => true
+end
